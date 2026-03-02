@@ -54,8 +54,8 @@ export default function ContactInfo() {
               className="object-contain"
             />
           </div>
-          <a href="mailto:ventas@tagleycia.com" className="text-lg hover:underline">
-            ventas@tagleycia.com
+          <a href="mailto:ventas@dripsa.cl" className="text-lg hover:underline">
+            ventas@dripsa.cl
           </a>
         </div>
 

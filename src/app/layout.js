@@ -19,7 +19,8 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className={`${leagueGothic.variable} font-sans`}>
         <Navbar />
-        <main className="min-h-screen pt-24 md:pt-32">
+        {/* INCREASED PADDING TO MATCH BIGGER NAVBAR */}
+        <main className="min-h-screen pt-[160px] md:pt-[200px] lg:pt-[240px]">
           {children}
         </main>
         <Footer />

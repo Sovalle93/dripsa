@@ -5,7 +5,7 @@ export default function AboutBottomRight() {
   return (
     <div className="relative w-full h-full min-h-[300px] md:min-h-[400px] lg:min-h-[500px] overflow-hidden">
       <Image
-        src="https://res.cloudinary.com/dmivjpb65/image/upload/q_auto/v1771870525/Foto_Grupal_wysar4.png"
+        src="https://res.cloudinary.com/dmivjpb65/image/upload/v1772487769/Foto_Grupal_wysar4.jpg"
         alt="Equipo Dripsa"
         fill
         className="object-cover"
