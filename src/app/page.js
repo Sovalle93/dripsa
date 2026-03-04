@@ -1,7 +1,7 @@
 import HeroSection from './components/home/HeroSection'
 import BodySection from './components/home/BodySection'
 import AchievementsSection from './components/home/AchievementsSection'
-import PillarsSection from './components/home/PillarsSection'
+import Brands from './components/home/Brands'
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <HeroSection />
       <BodySection />
       <AchievementsSection />
-      <PillarsSection />
+      <Brands />
     </main>
   )
 }

@@ -8,18 +8,18 @@ export default function BodySection() {
           {/* LEFT COLUMN - Text - Takes 4 columns on desktop */}
           <div className="md:col-span-4 flex flex-col space-y-[30px] md:space-y-[32px] lg:space-y-[34px]">
             {/* Big text - H1 */}
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight" style={{ color: '#584e2d' }}>
-              Mas de 20 años creando soluciones a la medida para nuestros agricultores.
+            <h1 className="text-3xl md:text-8xl lg:text-12xl font-bold leading-tight" style={{ color: '#584e2d' }}>
+              Nos apasiona nuestra tierra y lo que de ella nace
             </h1>
             
             {/* Medium text - H2 */}
-            <h2 className="text-xl md:text-2xl lg:text-3xl leading-relaxed" style={{ color: '#584e2d' }}>
-              En el año 2003 nuestros fundadores vieron en Chile un gran desarrollo agronómico, con ansias de los productores por aumentar su producción y manejar sus huertos de una forma más eficiente. Para poder realizar su objetivo nuestros fundadores llegaron a la conclusión de que el productor debe centrarse en el corazón de su negocio, la producción y el rendimiento.
+            <h2 className="text-xl md:text-4xl lg:text-5xl leading-relaxed" style={{ color: '#584e2d' }}>
+              Ofrecemos soluciones integrales para el riego de los campos chilenos, buscando la optimización de los recursos, ofreciendo un visión integral en el desarrollo de cada proyecto.
             </h2>
             
             {/* Smaller text - H3 */}
-            <h3 className="text-lg md:text-xl lg:text-2xl leading-relaxed" style={{ color: '#584e2d' }}>
-              Es por eso por lo que para facilitar la consecución de este objetivo crean DRIP S.A. una empresa que presenta una solución Integral para su riego, siempre teniendo presente los 5 pilares bases de nuestra cultura
+            <h3 className="text-lg md:text-3xl lg:text-3xl leading-relaxed" style={{ color: '#584e2d' }}>
+              Nuestra vocación por la tierra y sus recursos nos inspiran y movilizan todos los días.
             </h3>
           </div>
 
@@ -60,3 +60,7 @@ export default function BodySection() {
     </section>
   )
 }
+
+
+
+

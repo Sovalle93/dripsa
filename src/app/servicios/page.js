@@ -11,8 +11,7 @@ export default function ServiciosPage() {
           <span style={{ color: '#548e7d' }}>Servicios</span>
         </h1>
         <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
-          Soluciones integrales de riego diseñadas para maximizar la productividad de tu campo, 
-          con tecnología de punta y el respaldo de más de 20 años de experiencia.
+          Ofrecemos una amplia variedad de soluciones de riego para maximizar la  productividad de los campos y huertos de Chile, ofreciendo un servicio de excelencia, acompañamiento integral en el desarrollo de cada Proyecto, con tecnología de punta y el respaldo y experiencia de las mejores marcas a nivel mundial
         </p>
       </div>
 
