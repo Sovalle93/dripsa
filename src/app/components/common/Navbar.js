@@ -15,7 +15,7 @@ export default function Navbar() {
         {/* Logo - FILL the bigger space */}
         <Link href="/" className="relative h-4/5 w-auto aspect-[2/1]">
           <Image
-            src="https://res.cloudinary.com/dmivjpb65/image/upload/v1771870598/Logo_Dripsa_yw0czn.png"
+            src="https://res.cloudinary.com/dmivjpb65/image/upload/v1772826603/Logo_Dripsa_yw0czn.png"
             alt="Dripsa Logo"
             fill
             className="object-contain object-left"
@@ -30,28 +30,28 @@ export default function Navbar() {
             <Link 
               href="/nosotros" 
               className="text-2xl lg:text-3xl xl:text-4xl font-medium hover:opacity-80 transition whitespace-nowrap" 
-              style={{ color: '#584e2d' }}
+              style={{ color: '#4A2C2C' }}
             >
               Nosotros
             </Link>
             <Link 
               href="/servicios" 
               className="text-2xl lg:text-3xl xl:text-4xl font-medium hover:opacity-80 transition whitespace-nowrap" 
-              style={{ color: '#584e2d' }}
+              style={{ color: '#4A2C2C' }}
             >
               Nuestros Servicios
             </Link>
             <Link 
               href="/proyectos" 
               className="text-2xl lg:text-3xl xl:text-4xl font-medium hover:opacity-80 transition whitespace-nowrap" 
-              style={{ color: '#584e2d' }}
+              style={{ color: '#4A2C2C' }}
             >
               Proyectos
             </Link>
             <Link 
               href="/contacto" 
               className="text-2xl lg:text-3xl xl:text-4xl font-medium hover:opacity-80 transition whitespace-nowrap" 
-              style={{ color: '#584e2d' }}
+              style={{ color: '#4A2C2C' }}
             >
               Contáctanos
             </Link>

@@ -30,13 +30,13 @@ export default function AchievementsSection() {
             
             <div 
               className="text-4xl md:text-5xl lg:text-6xl font-black mb-2" 
-              style={{ color: '#1800ad' }}
+              style={{ color: '#6B4F4F' }}
             >
               {item.number}
             </div>
             <div 
               className="text-sm md:text-base font-bold tracking-wide max-w-[200px] mx-auto lg:mx-0" 
-              style={{ color: '#1800ad' }}
+              style={{ color: '#6B4F4F' }}
             >
               {item.text}
             </div>

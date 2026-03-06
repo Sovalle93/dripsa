@@ -30,7 +30,7 @@ export default function AboutBottomLeft() {
   ]
 
   return (
-    <section className="py-16 px-4 md:py-20 md:px-8 lg:px-16" style={{ backgroundColor: '#5b74aa' }}>
+    <section className="py-16 px-4 md:py-20 md:px-8 lg:px-16" style={{ backgroundColor: '#e99b4f' }}>
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-12 md:mb-16">

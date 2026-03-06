@@ -30,7 +30,7 @@ export default function ContactInfo() {
       </div>
 
       {/* Contact Details - same as before */}
-      <div className="space-y-4" style={{ color: '#012758' }}>
+      <div className="space-y-4" style={{ color: '#6a390c' }}>
         <div className="flex items-center gap-3">
           <div className="relative w-6 h-6">
             <Image

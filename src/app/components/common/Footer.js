@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="flex justify-center md:justify-start w-full md:w-auto">
             <div className="relative w-48 h-24 md:w-56 md:h-28 lg:w-64 lg:h-32">
               <Image
-                src="https://res.cloudinary.com/dmivjpb65/image/upload/v1771870523/Logo_Riego_lt0elc.png"
+                src="https://res.cloudinary.com/dmivjpb65/image/upload/v1772826603/Logo_Dripsa_yw0czn.png"
                 alt="Dripsa Logo"
                 fill
                 sizes="(max-width: 768px) 192px, (max-width: 1024px) 224px, 256px"

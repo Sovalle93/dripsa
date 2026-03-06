@@ -7,7 +7,7 @@ export default function BrandsGrid() {
       {/* Title - Restored */}
       <h2 
         className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 md:mb-6 text-center"
-        style={{ color: '#012758' }}
+        style={{ color: '#5C3A3A' }}
       >
         Marcas que Trabajan con Nosotros
       </h2>

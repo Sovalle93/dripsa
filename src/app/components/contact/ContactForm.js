@@ -268,7 +268,7 @@ export default function ContactForm() {
           className={`w-full py-4 px-6 rounded-lg text-white font-bold text-lg transition ${
             isSubmitting 
               ? 'bg-gray-400 cursor-not-allowed' 
-              : 'bg-[#012758] hover:bg-[#023070]'
+              : 'bg-[#d3751b] hover:bg-[#e99b4f]'
           }`}
         >
           {isSubmitting ? 'Enviando...' : 'Enviar mensaje'}

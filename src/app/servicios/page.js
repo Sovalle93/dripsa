@@ -7,8 +7,8 @@ export default function ServiciosPage() {
       {/* Header Section */}
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 mb-16">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-center">
-          <span style={{ color: '#012758' }}>Nuestros</span>{' '}
-          <span style={{ color: '#548e7d' }}>Servicios</span>
+          <span style={{ color: '#4A2C2C' }}>Nuestros</span>{' '}
+          <span style={{ color: '#3A2A2A' }}>Servicios</span>
         </h1>
         <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
           Ofrecemos una amplia variedad de soluciones de riego para maximizar la  productividad de los campos y huertos de Chile, ofreciendo un servicio de excelencia, acompañamiento integral en el desarrollo de cada Proyecto, con tecnología de punta y el respaldo y experiencia de las mejores marcas a nivel mundial
@@ -30,7 +30,7 @@ export default function ServiciosPage() {
 
       {/* Bottom CTA Section */}
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 mt-20">
-        <div className="bg-gradient-to-r from-[#012758] to-[#548e7d] rounded-3xl p-12 text-center">
+        <div className="bg-gradient-to-r from-[#b55f14] to-[#e99b4f] rounded-3xl p-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             ¿Necesitas una solución personalizada?
           </h2>
@@ -39,7 +39,7 @@ export default function ServiciosPage() {
           </p>
           <a 
             href="/contacto"
-            className="inline-block bg-white text-[#012758] px-8 py-4 rounded-full font-bold text-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+            className="inline-block bg-white text-[#5C3A3A] px-8 py-4 rounded-full font-bold text-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
           >
             Contáctanos
           </a>

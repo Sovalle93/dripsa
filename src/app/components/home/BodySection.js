@@ -5,25 +5,25 @@ export default function BodySection() {
     <section className="py-12 px-4 md:py-16 md:px-8 lg:px-16">
       {/* Using a 6-column grid on desktop */}
       <div className="grid grid-cols-1 md:grid-cols-6 gap-8 md:gap-12">
-          {/* LEFT COLUMN - Text - Takes 4 columns on desktop */}
-          <div className="md:col-span-4 flex flex-col space-y-[30px] md:space-y-[32px] lg:space-y-[34px]">
-            {/* Big text - H1 */}
-            <h1 className="text-3xl md:text-8xl lg:text-12xl font-bold leading-tight" style={{ color: '#584e2d' }}>
-              Nos apasiona nuestra tierra y lo que de ella nace
-            </h1>
-            
-            {/* Medium text - H2 */}
-            <h2 className="text-xl md:text-4xl lg:text-5xl leading-relaxed" style={{ color: '#584e2d' }}>
-              Ofrecemos soluciones integrales para el riego de los campos chilenos, buscando la optimización de los recursos, ofreciendo un visión integral en el desarrollo de cada proyecto.
-            </h2>
-            
-            {/* Smaller text - H3 */}
-            <h3 className="text-lg md:text-3xl lg:text-3xl leading-relaxed" style={{ color: '#584e2d' }}>
-              Nuestra vocación por la tierra y sus recursos nos inspiran y movilizan todos los días.
-            </h3>
-          </div>
+        {/* LEFT COLUMN - Text - Takes 4 columns on desktop */}
+        <div className="md:col-span-4 flex flex-col space-y-[30px] md:space-y-[32px] lg:space-y-[34px]">
+          {/* Big text - H1 - Rich crimson-grey */}
+          <h1 className="text-3xl md:text-8xl lg:text-12xl font-bold leading-tight" style={{ color: '#4A2C2C' }}>
+            Nos apasiona nuestra tierra y lo que de ella nace
+          </h1>
+          
+          {/* Medium text - H2 - Slightly softer */}
+          <h2 className="text-xl md:text-4xl lg:text-5xl leading-relaxed" style={{ color: '#5C3A3A' }}>
+            Ofrecemos soluciones integrales para el riego de los campos chilenos, buscando la optimización de los recursos, ofreciendo un visión integral en el desarrollo de cada proyecto.
+          </h2>
+          
+          {/* Smaller text - H3 - Back to rich tone */}
+          <h3 className="text-lg md:text-3xl lg:text-3xl leading-relaxed" style={{ color: '#4A2C2C' }}>
+            Nuestra vocación por la tierra y sus recursos nos inspiran y movilizan todos los días.
+          </h3>
+        </div>
 
-        {/* RIGHT COLUMN - Media - Takes 2 columns on desktop */}
+        {/* RIGHT COLUMN - Media */}
         <div className="md:col-span-2 flex flex-col space-y-[30px] md:space-y-[32px] lg:space-y-[34px] justify-center">
           {/* Image */}
           <div className="flex justify-center md:justify-start">
@@ -60,7 +60,3 @@ export default function BodySection() {
     </section>
   )
 }
-
-
-
-

@@ -1,36 +1,21 @@
-'use client'
+import Image from 'next/image'
 
-import { useRef, useEffect } from 'react'
-
-export default function VideoProject({ project, isEven }) {
-  const videoRef = useRef(null)
-
-  useEffect(() => {
-    // Ensure video plays on load
-    if (videoRef.current) {
-      videoRef.current.play().catch(error => {
-        console.log("Autoplay prevented:", error)
-      })
-    }
-  }, [])
-
+export default function ProjectCard({ project, isEven }) {
   return (
     <section className={`py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 ${
       isEven ? 'bg-white' : 'bg-gray-50'
     }`}>
       <div className="max-w-7xl mx-auto">
-        {/* Video Container - Full width, shortened height */}
+        {/* Image Container - Using Next.js Image instead of video */}
         <div className="relative w-full h-[40vh] md:h-[45vh] lg:h-[50vh] mb-8 md:mb-10 lg:mb-12 rounded-lg overflow-hidden shadow-xl">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="absolute top-0 left-0 w-full h-full object-cover"
-          >
-            <source src={project.videoUrl} type="video/mp4" />
-          </video>
+          <Image
+            src={project.imageUrl}
+            alt={project.title}
+            fill
+            className="object-fit hover:scale-105 transition-transform duration-500"
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 80vw"
+            priority={project.id === 1} 
+          />
         </div>
 
         {/* Text Container - Three columns on desktop, stacked on mobile */}
@@ -44,7 +29,7 @@ export default function VideoProject({ project, isEven }) {
 
           {/* Second Column - Description */}
           <div className="text-center md:text-left">
-            <p className="text-base md:text-lg lg:text-xl leading-relaxed" style={{ color: '#548e7d' }}>
+            <p className="text-base md:text-lg lg:text-xl leading-relaxed" style={{ color: '#b55f14' }}>
               {project.description}
             </p>
           </div>
