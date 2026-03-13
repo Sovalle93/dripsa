@@ -29,6 +29,10 @@ export default function AboutBottomLeft() {
     }
   ]
 
+  // Split pillars into two rows
+  const topRow = pillars.slice(0, 2)  // First 2 pillars
+  const bottomRow = pillars.slice(2)  // Last 3 pillars
+
   return (
     <section className="py-16 px-4 md:py-20 md:px-8 lg:px-16" style={{ backgroundColor: '#e99b4f' }}>
       <div className="max-w-7xl mx-auto">
@@ -37,23 +41,46 @@ export default function AboutBottomLeft() {
           Nuestros Pilares
         </h2>
 
-        {/* Pillars Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-6">
-          {pillars.map((pillar) => (
+        {/* Top Row - 2 Pillars */}
+        <div className="grid grid-cols-2 gap-8 md:gap-6 mb-8 md:mb-10 max-w-3xl mx-auto">
+          {topRow.map((pillar) => (
             <div key={pillar.id} className="flex flex-col items-center text-center">
               {/* Image Container */}
-                <div className="relative w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 mb-4">
-                  <Image
-                    src={pillar.image}
-                    alt={`Pilar ${pillar.id}`}
-                    fill
-                    sizes="(max-width: 640px) 128px, (max-width: 768px) 160px, 192px"
-                    className="object-contain"
-                  />
-                </div>
+              <div className="relative w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 mb-4">
+                <Image
+                  src={pillar.image}
+                  alt={`Pilar ${pillar.id}`}
+                  fill
+                  sizes="(max-width: 640px) 128px, (max-width: 768px) 160px, 192px"
+                  className="object-contain"
+                />
+              </div>
               
               {/* Text */}
               <p className="text-white text-sm md:text-base leading-relaxed max-w-[250px]">
+                {pillar.text}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {/* Bottom Row - 3 Pillars */}
+        <div className="grid grid-cols-3 gap-6 md:gap-4 max-w-4xl mx-auto">
+          {bottomRow.map((pillar) => (
+            <div key={pillar.id} className="flex flex-col items-center text-center">
+              {/* Image Container - Slightly smaller for 3-column layout */}
+              <div className="relative w-28 h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 mb-4">
+                <Image
+                  src={pillar.image}
+                  alt={`Pilar ${pillar.id}`}
+                  fill
+                  sizes="(max-width: 640px) 112px, (max-width: 768px) 128px, 144px"
+                  className="object-contain"
+                />
+              </div>
+              
+              {/* Text */}
+              <p className="text-white text-xs md:text-sm leading-relaxed max-w-[200px]">
                 {pillar.text}
               </p>
             </div>

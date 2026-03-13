@@ -2,6 +2,7 @@ import AboutTopLeft from '../components/about/AboutTopLeft'
 import AboutTopRight from '../components/about/AboutTopRight'
 import AboutBottomLeft from '../components/about/AboutBottomLeft'
 import AboutBottomRight from '../components/about/AboutBottomRight'
+import Storage from '../components/about/Storage'
 
 export default function AboutPage() {
   return (
@@ -12,6 +13,7 @@ export default function AboutPage() {
         <AboutBottomLeft />
         <AboutBottomRight />
       </div>
+      <Storage />
     </main>
   )
 }
