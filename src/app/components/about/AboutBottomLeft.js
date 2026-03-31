@@ -57,7 +57,7 @@ export default function AboutBottomLeft() {
               </div>
               
               {/* Text */}
-              <p className="text-white text-sm md:text-base leading-relaxed max-w-[250px]">
+              <p className="text-white text-lg md:text-2xl leading-relaxed max-w-[200px]">
                 {pillar.text}
               </p>
             </div>
@@ -80,7 +80,7 @@ export default function AboutBottomLeft() {
               </div>
               
               {/* Text */}
-              <p className="text-white text-xs md:text-sm leading-relaxed max-w-[200px]">
+              <p className="text-white text-lg md:text-2xl leading-relaxed max-w-[200px]">
                 {pillar.text}
               </p>
             </div>

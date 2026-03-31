@@ -54,5 +54,12 @@ export const servicesData = [
     description: "Monitoreo remoto en tiempo real de todas las variables de tu sistema. Datos precisos para tomar decisiones informadas desde cualquier lugar.",
     imageUrl: "https://res.cloudinary.com/dmivjpb65/image/upload/v1772486165/engineering-removebg-preview_ifuz1r.png",
     alt: "Telemetría"
+  },
+  {
+    id: 9,
+    title: "Mantenciones Preventivas y Pivotes",
+    description: "Mantenimiento programado para asegurar el rendimiento óptimo de tus sistemas de riego. Servicios especializados para prolongar la vida útil y evitar fallas inesperadas.",
+    imageUrl: "https://res.cloudinary.com/dmivjpb65/image/upload/v1772486165/engineering-removebg-preview_ifuz1r.png",
+    alt: "Mantenciones Preventivas y Pivotes"
   }
 ]

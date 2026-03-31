@@ -3,7 +3,7 @@ import React from 'react'
 export default function AboutTopRight() {
   return (
     <div className="w-full h-full min-h-[300px] md:min-h-[400px] lg:min-h-[500px] p-6 md:p-8 lg:p-10 flex items-center" style={{ backgroundColor: '#f5b882' }}>
-      <div className="text-white space-y-4 text-sm md:text-base lg:text-lg leading-relaxed">
+      <div className="text-white space-y-4 text-lg md:text-xl leading-relaxed">
         <p>
           Hace más de 20 años Dripsa nace mirando el gran desarrollo agronómico de nuestro país.
         </p>
