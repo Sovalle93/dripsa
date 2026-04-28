@@ -1,44 +1,76 @@
+'use client'
+
 import Image from 'next/image'
+import { useState } from 'react'
 
 export default function ProjectCard({ project, isEven }) {
+  const [imageLoaded, setImageLoaded] = useState(false)
+
   return (
-    <section className={`py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 ${
-      isEven ? 'bg-white' : 'bg-gray-50'
+    <section className={`py-16 md:py-24 px-4 md:px-8 lg:px-16 transition-all duration-300 ${
+      isEven ? 'bg-white' : 'bg-gradient-to-br from-gray-50 to-gray-100'
     }`}>
       <div className="max-w-7xl mx-auto">
-        {/* Image Container - Using Next.js Image instead of video */}
-        <div className="relative w-full h-[40vh] md:h-[45vh] lg:h-[50vh] mb-8 md:mb-10 lg:mb-12 rounded-lg overflow-hidden shadow-xl">
-          <Image
-            src={project.imageUrl}
-            alt={project.title}
-            fill
-            className="object-fit hover:scale-105 transition-transform duration-500"
-            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 80vw"
-            priority={project.id === 1} 
-          />
-        </div>
-
-        {/* Text Container - Three columns on desktop, stacked on mobile */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 lg:gap-12">
-          {/* First Column - Title */}
-          <div className="text-center md:text-left">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black uppercase">
-              {project.title}
-            </h2>
+        <div className={`flex flex-col ${
+          isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'
+        } gap-8 md:gap-12 lg:gap-16 items-center`}>
+          
+          {/* Image Container - Modern, Clean, Properly Sized */}
+          <div className="w-full lg:w-1/2">
+            <div className="relative overflow-hidden rounded-2xl shadow-xl group">
+              {/* Blur placeholder while loading */}
+              <div className={`absolute inset-0 bg-gray-200 animate-pulse transition-opacity duration-500 ${
+                imageLoaded ? 'opacity-0' : 'opacity-100'
+              }`} />
+              
+              {/* Next.js Optimized Image */}
+              <div className="relative aspect-[16/9] w-full">
+                <Image
+                  src={project.imageUrl}
+                  alt={project.alt || project.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
+                  className={`object-cover transition-transform duration-700 group-hover:scale-105 ${
+                    imageLoaded ? 'opacity-100' : 'opacity-0'
+                  }`}
+                  onLoad={() => setImageLoaded(true)}
+                  quality={85}
+                  priority={project.id === 1}
+                />
+              </div>
+              
+              {/* Overlay on hover */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
           </div>
 
-          {/* Second Column - Description */}
-          <div className="text-center md:text-left">
-            <p className="text-base md:text-lg lg:text-xl leading-relaxed" style={{ color: '#b55f14' }}>
-              {project.description}
-            </p>
-          </div>
+          {/* Content Container */}
+          <div className="w-full lg:w-1/2 space-y-6">
+            {/* Title with decorative line */}
+            <div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 uppercase mb-4">
+                {project.title}
+              </h2>
+              <div className="w-16 h-1 bg-[#d3751b] rounded-full" />
+            </div>
 
-          {/* Third Column - Year */}
-          <div className="text-center md:text-left">
-            <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-              {project.year}
-            </p>
+            {/* Description */}
+            <div className="space-y-4">
+              <p className="text-base md:text-lg leading-relaxed text-gray-700">
+                {project.description}
+              </p>
+            </div>
+
+            {/* Year with modern styling */}
+            <div className="pt-4">
+              <span className="inline-flex items-center gap-2 px-4 py-2 bg-[#d3751b]/10 rounded-full">
+                <svg className="w-4 h-4 text-[#d3751b]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span className="text-lg font-semibold text-[#d3751b]">{project.year}</span>
+              </span>
+            </div>
+
           </div>
         </div>
       </div>

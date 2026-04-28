@@ -11,7 +11,7 @@ export default function AboutTopLeft() {
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
         <source
-          src="https://res.cloudinary.com/dmivjpb65/video/upload/v1771876243/Video_Tagle_d3bmor.mp4"
+          src="https://res.cloudinary.com/dmivjpb65/video/upload/v1777389177/netafim_z0c6d4.mp4"
           type="video/mp4"
         />
       </video>
