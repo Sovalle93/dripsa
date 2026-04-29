@@ -5,7 +5,7 @@ export default function AboutBottomLeft() {
     {
       id: 1,
       image: "https://res.cloudinary.com/dmivjpb65/image/upload/v1771875767/Pilar_1-removebg-preview_fxqpch.png",
-      text: "Formar parte de nuestro esencias el poner en primer lugar los requerimientos y necesidades de cada uno de nuestros clientes."
+      text: "Forma parte de nuestra esencia el poner en primer lugar los requerimientos y necesidades de cada uno de nuestros clientes."
     },
     {
       id: 2,
@@ -15,7 +15,7 @@ export default function AboutBottomLeft() {
     {
       id: 3,
       image: "https://res.cloudinary.com/dmivjpb65/image/upload/v1771875766/Pilar_3-removebg-preview_wfqvtv.png",
-      text: "Junto con nuestros socios estratégicos potenciamos el uso de productos de alta calidad, los que constituyen a una mayor durabilidad y desempeño en nuestros proyectos. "
+      text: "Junto con nuestros socios estratégicos potenciamos el uso de productos de alta calidad, los que contribuyen a una mayor durabilidad y desempeño en nuestros proyectos. "
     },
     {
       id: 4,
@@ -25,7 +25,7 @@ export default function AboutBottomLeft() {
     {
       id: 5,
       image: "https://res.cloudinary.com/dmivjpb65/image/upload/v1771875766/Pilar_4-removebg-preview_qe5uox.png",
-      text: "En búsqueda de constantes mejoras, estamos siempre consciente de que nuestros productos cumplan con los requerimientos y sean ecológicamente amigables al mismo tiempo que desarrollamos con nuestros socios mejoras en el producto y procesos."
+      text: "En búsqueda de constantes mejoras, estamos siempre conscientes de que nuestros productos cumplan con los requerimientos y sean ecológicamente amigables al mismo tiempo que desarrollamos con nuestros socios mejoras en el producto y procesos."
     }
   ]
 

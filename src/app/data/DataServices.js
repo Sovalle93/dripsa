@@ -2,7 +2,7 @@ export const servicesData = [
   {
     id: 1,
     title: "Riego Por Goteo",
-    description: "Sistemas de precisión que llevan agua y nutrientes directamente a la raíz, optimizando el consumo y maximizando la producción de tus cultivos.",
+    description: "Sistemas de precisión que llevan agua y nutrientes directamente a la raíz, optimizando el consumo y maximizando la producción de tus frutales.",
     imageUrl: "https://res.cloudinary.com/dmivjpb65/image/upload/v1772486167/irrigation-removebg-preview_rgc9ka.png",
     alt: "Riego por goteo"
   },
@@ -22,7 +22,7 @@ export const servicesData = [
   },
   {
     id: 4,
-    title: "Riego por Aspersión",
+    title: "Riego por Aspersión y Pivotes",
     description: "Cobertura uniforme para grandes superficies. Ideal para cultivos extensos y áreas verdes que requieren simular la lluvia natural.",
     imageUrl: "https://res.cloudinary.com/dmivjpb65/image/upload/v1772486165/riego-removebg-preview_gwlzzq.png",
     alt: "Riego por aspersión"
@@ -36,30 +36,30 @@ export const servicesData = [
   },
   {
     id: 6,
-    title: "Tratamiento de Membranas",
+    title: "Impermeabilización",
     description: "Tecnología avanzada para la filtración y purificación del agua, garantizando la calidad óptima para tus sistemas de riego más sensibles.",
     imageUrl: "https://res.cloudinary.com/dmivjpb65/image/upload/v1772486164/piscina-1-removebg-preview_ffu6rc.png",
-    alt: "Tratamiento de membranas"
+    alt: "Impermeabilización"
   },
   {
     id: 7,
     title: "Conducciones",
-    description: "Soluciones completas de tuberías y accesorios para el transporte eficiente del agua, desde la fuente hasta el último gotero de tu campo.",
+    description: "Soluciones completas de tuberías y accesorios para el transporte eficiente del agua, desde la fuente hasta el último emisor de tu campo.",
     imageUrl: "https://res.cloudinary.com/dmivjpb65/image/upload/v1772486164/pipeline-removebg-preview_nbtxae.png",
     alt: "Conducciones"
   },
   {
     id: 8,
     title: "Telemetría",
-    description: "Monitoreo remoto en tiempo real de todas las variables de tu sistema. Datos precisos para tomar decisiones informadas desde cualquier lugar.",
+    description: "Monitoreo y control remoto en tiempo real de todas las variables de tu sistema. Datos precisos para tomar decisiones informadas desde cualquier lugar.",
     imageUrl: "https://res.cloudinary.com/dmivjpb65/image/upload/v1772486165/engineering-removebg-preview_ifuz1r.png",
     alt: "Telemetría"
   },
   {
     id: 9,
-    title: "Mantenciones Preventivas y Pivotes",
+    title: "Mantenciones Preventivas",
     description: "Mantenimiento programado para asegurar el rendimiento óptimo de tus sistemas de riego. Servicios especializados para prolongar la vida útil y evitar fallas inesperadas.",
     imageUrl: "https://res.cloudinary.com/dmivjpb65/image/upload/v1772486165/engineering-removebg-preview_ifuz1r.png",
-    alt: "Mantenciones Preventivas y Pivotes"
+    alt: "Mantenciones Preventivas"
   }
 ]
