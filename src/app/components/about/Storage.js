@@ -54,7 +54,7 @@ export default function Storage() {
                   <span className="text-sm text-gray-500">Disponibilidad</span>
                 </div>
                 <div className="text-center">
-                  <span className="block text-3xl font-bold text-[#415978]">1000+</span>
+                  <span className="block text-3xl font-bold text-[#415978]">9000</span>
                   <span className="text-sm text-gray-500">m² de bodega</span>
                 </div>
               </div>
@@ -66,7 +66,7 @@ export default function Storage() {
                 ✓
               </div>
               <p className="text-sm text-gray-600">
-                <span className="font-semibold text-[#415978]">Stock inmediato (texto generico)</span>
+                <span className="font-semibold text-[#415978]">Stock inmediato</span>
                 <br />
                 Despacho a todo Chile
               </p>
