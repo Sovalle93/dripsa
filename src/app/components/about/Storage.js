@@ -43,7 +43,7 @@ export default function Storage() {
               </h3>
               
               <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-6">
-                Contamos con una bodega de más de 1,000 m² completamente equipada para 
+                Contamos con una bodega de más de 9,000 m² completamente equipada para 
                 garantizar la disponibilidad inmediata de todos nuestros productos. 
                 Más de 5,000 SKU en stock permanente.
               </p>
